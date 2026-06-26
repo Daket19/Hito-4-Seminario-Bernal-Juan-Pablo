@@ -2,8 +2,8 @@
 
 Asistente inteligente basado en arquitectura **RAG (Retrieval Augmented Generation)** para responder preguntas institucionales de la Universidad Andrés Bello, utilizando documentación oficial como fuente de información.
 
-**Asignatura:** IA Embebida en Sistemas Computacionales  
-**Carrera:** Ingeniería Informática — Universidad Andrés Bello  
+**Asignatura:** TOP 2: ARQUITECTURA DE SW  
+**Carrera:** Ingeniería en Computación e Informática — Universidad Andrés Bello  
 **Estudiante:** Juan Pablo Seminario Bernal  
 
 ---
