@@ -1,4 +1,4 @@
-# 🎓 Asistente Académico UNAB — RAG
+#  Asistente Académico UNAB — RAG
 
 Asistente inteligente basado en arquitectura **RAG (Retrieval Augmented Generation)** para responder preguntas institucionales de la Universidad Andrés Bello, utilizando documentación oficial como fuente de información.
 
@@ -8,7 +8,7 @@ Asistente inteligente basado en arquitectura **RAG (Retrieval Augmented Generati
 
 ---
 
-## 🏗️ Arquitectura
+##  Arquitectura
 
 ```
 Usuario
@@ -28,7 +28,7 @@ Respuesta + Fuentes
 
 ---
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 | Componente | Tecnología |
 |---|---|
@@ -41,7 +41,7 @@ Respuesta + Fuentes
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 rag_react/
@@ -67,7 +67,7 @@ rag_react/
 
 ---
 
-## 📄 Documentos Indexados
+##  Documentos Indexados
 
 - `Reglamento-General-Universidad-Andres-Bello.pdf`
 - `Reglamento-de-Conducta-para-la-Convivencia-de-la-Comunidad_.pdf`
@@ -77,7 +77,7 @@ rag_react/
 
 ---
 
-## ⚙️ Instalación y Ejecución
+##  Instalación y Ejecución
 
 ### 1. Clonar el repositorio
 
@@ -138,7 +138,7 @@ http://localhost:5173
 
 ---
 
-## 🔧 Decisiones Técnicas
+##  Decisiones Técnicas
 
 | Parámetro | Valor | Justificación |
 |---|---|---|
@@ -149,7 +149,7 @@ http://localhost:5173
 
 ---
 
-## 📋 Requisitos
+##  Requisitos
 
 - Python 3.11
 - Node.js 18+
@@ -157,7 +157,7 @@ http://localhost:5173
 
 ---
 
-## 📝 Notas
+##  Notas
 
 - Los PDFs institucionales **no están incluidos** en el repositorio por derechos de uso.
 - El archivo `.env` con la API Key **no está incluido** por seguridad.
