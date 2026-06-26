@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from "react";
+import ReactMarkdown from "react-markdown"
 
 /* ============================================================================
  * Asistente Académico UNAB — chatbot RAG (single-file React component)
@@ -240,7 +241,11 @@ function Bubble({ msg }) {
               }
         }
       >
-        <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>{msg.text}</p>
+       {isBot ? (
+          <ReactMarkdown>{msg.text}</ReactMarkdown>
+        ) : (
+          <p style={{ margin: 0, whiteSpace: "pre-wrap" }}>{msg.text}</p>
+        )}
         {isBot && <SourceBadges sources={msg.sources} />}
         {isBot && <Fragments fragments={msg.fragments} />}
       </div>
