@@ -32,8 +32,8 @@ def main():
     print(f"\n📂 Cargando documentos desde '{carpeta_docs}'...")
     documentos = cargar_documentos(carpeta_docs)
     
-    print(f"\n✂️  Fragmentando documentos (chunk=500, overlap=50)...")
-    fragmentos = fragmentar(documentos, chunk_size=500, overlap=50)
+    print(f"\n✂️  Fragmentando documentos (chunk=1000, overlap=100)...")
+    fragmentos = fragmentar(documentos, chunk_size=1000, overlap=100)
     
     print(f"\n🧠 Inicializando modelo de embeddings...")
     modelo = inicializar_modelo()
